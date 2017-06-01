@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>内容页</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+body{
+	    	background-image: url(images/bodybg.gif);
+	    	background-repeat: repeat-x;
+	    	font-size: 12px;
+	    	color: #522a06;
+	    	padding: 0px;
+	    	font-family: '宋体';
+	    	border-style: none;
+	    	list-style-type:none;
+	    }
+		a{text-decoration: none;}
+	    a:link{text-decoration: none;}
+	    a:hover{text-decoration: underline;}
+		#header{
+			background-image: url(images/bg.gif);
+			height: 205px;
+			background-repeat: repeat-x;
+		}
+		#banner{
+			float: left;
+			margin-left: 300px;
+			margin-top: 38px;
+			width: 1000px;
+			height: 120px;			
+		}
+		#nav{
+			float: left;		
+			height: 40px;
+			width: 1500px;
+			background-image: url(images/nav.jpg);
+		}
+		.nav_body{
+            text-align: center;
+            font-weight: bolder;
+            line-height: 40px;
+		}
+		.nav_content
+		{
+			float: left;
+			margin-left: 200px;
+			color: #fff;
+		}
+		a.one{color: #fff;}
+		a.one:link{text-decoration: none;}
+		a.one:hover{text-decoration: none;color: #f9f603;}
+		.nav_search1{
+			height: 19px;
+			width: 140px;
+			background-color: #f8f5ee;
+		}
+		.nav_search2{
+			width: 44px;
+			height: 21px;
+			background-color: #000;
+			color: #fff;
+			border: 1px solid #f8f5ee;
+		}
+		#content{
+			height: 850px;
+			overflow: hidden;
+			align-content: center;
+			float: left;
+		}
+		.content_left{
+			float: left;
+			margin-left: 200px;
+			width: 700px;
+			height: 1000px;
+		}
+		.content_right{
+			float: left;
+			width: 280px;
+			margin-left: 16px;
+		}
+		.mianbao{
+			float: left;
+			margin-left: 43px;
+			height: 40px;
+			line-height: 40px;
+		}
+		.conetent_left_one{
+			float: left;
+			height: 100px;
+			width: 600px;
+		}
+		.left_one{
+			margin-left: 150px;
+			font: bold 16px '黑体';
+			height: 45px;
+			width: 600px;
+			line-height: 45px;
+			text-align: center;
+			border-bottom: 1px solid #c9baa5;
+		}
+		.left_two{
+			font-size: 12px;
+			text-align: center;
+			color: #757575;
+			margin: 10px;
+			margin-left: 300px;
+		}
+		.conetent_left_two{
+			float: left;
+		}
+		.left_three{
+			float: left;
+			margin-top: 5px;
+			margin-left: 180px;
+			line-height: 25px;
+		}
+		.letf_four{
+			background-image: url(images/huiyi.jpg);
+			float: left;
+			height: 350px;
+			width: 600px;
+			background-repeat: no-repeat;
+			margin-left: 170px;
+		}
+		.left_five{
+			float: left;
+			margin-top: 5px;
+			margin-left: 180px;
+			line-height: 25px;
+		}
+		.content_left_three{
+			float: left;
+			height: 40px;
+			line-height: 40px;
+			margin-top: 10px;
+			font-size: 13px;
+		}
+		.left_six{
+			width: 600px;
+			margin-left: 150px;
+			margin-right: 40px;
+			border-top: 1px solid #c9baa5
+		}
+		a.left_six{
+			color: #844004;font-size: 13px;
+		}
+		#footer{
+			background-image: url( images/foot.gif);
+			height: 140px;
+			width: 1500px;
+			float: left;
+
+			background-repeat: no-repeat;
+		}
+		.footer1{
+			float: left;
+			margin-left: 400px;
+		}
+		.footer2{
+			float: left;
+			font: bolder 12px '黑体';
+			color: black;
+		}
+		.footer5{
+			list-style-type: none;
+		}
+		.footer3{
+			float: left;
+			margin-left: -550px;
+		}
+		.footer4{
+			float: left;
+			margin-left: -550px;
+			margin-top: 30px;
+			text-align: center;
+		}
+		.content_right{
+			width: 500px;
+		}
+		.show{
+			background-image: url(images/bg.png);
+			float: right;
+			height: 220px;
+			width: 300px;
+			margin-top: 50px;
+			margin-right: 80px;
+			border: 1px solid #c9baa5;
+			margin-bottom: 20px;
+		}
+		.show1{
+			background-image: url(images/news.png);
+			float: right;
+			background-repeat: no-repeat;
+			height: 30px;
+			width: 200px;
+			margin-top: 20px;
+			margin-right: 60px;
+		}
+		.show2{
+			font-size: 15px;
+			font-weight: bolder;
+			line-height: 30px;
+			margin-left: 13px;
+			margin-top: 60px;
+			text-align: left;
+		}
+		.show3{
+			background-image: url(images/show.png);
+			background-repeat: no-repeat;
+			float: right;
+			height: 30px;
+			width: 200px;
+			margin-top: 20px;
+			margin-right: 90px;
+		}
+		.show_bg{
+			background-image: url(images/show_bg.png);
+			float: right;
+			height: 400px;
+			width: 300px;
+			margin-top: 10px;
+			margin-right: 70px;
+			margin-bottom: 0px;
+			background-repeat: no-repeat;
+		}
+		.show_bg1{
+			background-image: url(images/mingjia.jpg);
+			float: right;
+			background-repeat: no-repeat;
+			height: 200px;
+			width: 200px;
+			margin-top: 20px;
+			margin-right: 60px;
+		}
+		.show_bg2{
+			float: right;
+			width: 220px;
+			margin-right: 50px;
+			line-height: 20px;
+		}
+		.shiwu{
+			font-weight: bolder;
+			font-family: '黑体'；
+			font-size: 15px;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+	    <div id="banner"><img src="images/logo.png"></div>
+	    <div id="nav">
+	        <div class="nav_body">
+	        	<div class="nav_content">
+	        		<a href="file:///E:/Program%20Files/web/GIt%20zuo%20ye/lab9/index.html" class="one"><font color="#f9f603">首页</font></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+	        		<a href="#" class="one">中心概况</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+	        		<a href="#" class="one">培训动态</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+	        		<a href="#" class="one">学术争鸣</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+	        		<a href="#" class="one">书坛新闻</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+	        		<a href="#" class="one">名家展厅</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+	        		<a href="#" class="one">燕赵风采</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+	        		<a href="#" class="one">经典解读与示范</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+	        		<a href="#" class="one">谏言互动</a>
+	        	</div>
+	        	<div>
+	        		<form>
+	        			<input type="text" name="ljc" class="nav_search1">
+	        			<input type="button" name="ljc" value="搜索" class="nav_search2">
+	        		</form>
+	        	</div>
+	        </div>
+	    </div>
+	</div>
+	<div id="content">
+		<div class="content_left">
+			<div class="mianbao">当前位置:<a href="file:///E:/Program%20Files/web/GIt%20zuo%20ye/lab9/index.html">首页</a>>书坛新闻</div>	
+			<div class="conetent_left_one">
+				<div class="left_one"><h3>河北省书协召开2016年工作会议</h3></div>				
+				<div class="left_two">河北文艺网 2016-03-10</div>
+			</div>	
+			<div class="content_left_two">
+				<div class="left_three"><p>&nbsp;&nbsp;3月11日，“2016河北省书法家协会工作会议”在石家庄召开。河北省文联党委书记解晓勇，中国书协副主席、河北省书协主席刘金凯，河北省委宣传部文艺处长王振儒，河北省书协副主席兼秘书长刘月卯，副主席苛峰、陈茂才、李白、韩信、鲁班、诸葛亮、后裔等，河北省书协主席团委员、副秘书长、各地市书协负责人、优秀书法家代表近百人参加了会议。刘月卯主持会议。</p></div>
+				<div class="letf_four"></div>
+				<div class="left_five"><p>&nbsp;&nbsp;会议首先传达学习了中宣部部长刘德华在中国书协第七次全国代表大会开幕式上的讲话摘要，省委常委、宣传部长田向利在全省宣传工作上的讲话摘要。王振清代表省委宣传部讲话。</p><p>&nbsp;&nbsp;会议随后对2015年度先进单位和先进个人进行了表彰。廊坊、沧州、石家庄、保定、邢台、承德、秦皇岛、邯郸等市书法家协会被授予先进单位，省直、唐山、张家口、衡水等基层书协被授予服务基层先进单位。</p></div>
+			</div>
+			<div class="content_left_three">
+				<div class="left_six">上一篇：<a href="">弘扬优秀传统文化是群体的责任</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下一篇：<a href="">河北省文联2016年部门预算</a></div>
+			</div>
+		</div>
+		<div class="content_right">
+			<div class="show">
+				<div class="show1"></div>
+				<div class="show2">河北省群众书法大展</br>河北省文联2016年预算情况</br>河北省书协在第十一届书法展上创造佳绩</br>省书协召开机关作风整顿动员大会</br>河北省开启书法进万家送万福活动</div>
+			</div>
+			<div class="show3"></div>
+			<div class="show_bg">
+				<div class="show_bg1"></div>
+				<div class="show_bg2"><font color="red" class="shiwu">欧阳中石</font>，山东省肥城市人，著名文化学者、书法家、书法教育家。早年拜在京剧大师奚啸伯的门下。现任首都师范大学教授。博士生导师、中国书法文化教育研究所所长，北京唐风美术馆名誉馆长。</div>
+
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+    	<div class="footer1">
+	    	<div class="footer2">
+	    		<ul class="footer5">
+	    			<li><a href="#">电子信箱</a>&nbsp;&nbsp;&nbsp;|</li>
+	    		</ul>
+	    	</div>
+	    	<div class="footer2">
+	    		<ul class="footer5">
+	    			<li><a href="#">设为首页</a>&nbsp;&nbsp;&nbsp;|</li>
+	    		</ul>
+	    	</div>
+	    	<div class="footer2">
+	    		<ul class="footer5">
+	    			<li><a href="#">在线调查</a>&nbsp;&nbsp;&nbsp;|</li>
+	    		</ul>
+	    	</div>
+	    	<div class="footer2">
+		    	<ul class="footer5">	
+		    	    <li><a href="#">加入收藏</a>&nbsp;&nbsp;&nbsp;|</li>
+		    	</ul>
+		    </div>
+		    <div class="footer2">
+		    	<ul class="footer5">	
+		    		<li><a href="#">网站地图</a>&nbsp;&nbsp;&nbsp;|</li>
+		    	</ul>
+		    </div>
+		    <div class="footer2">
+		    	<ul class="footer5">	
+		    		<li><a href="#">关于我们</a></li>
+		    	</ul>
+			<div class="footer3">_______________________________________________________________________________________________________________</div>	
+			<div class="footer4">Copyright2013-2014 Hebshufajia.com,All Rights Reserved</br>冀ICP备05067795号 冀公网安备110402440008号</div>
+		</div>
+	</div>
+</body>
+</html>
